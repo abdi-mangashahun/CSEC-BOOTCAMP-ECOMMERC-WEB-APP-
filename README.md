@@ -1,7 +1,5 @@
 
-markdown
-Copy
-Edit
+
 # 🛒 E-Commerce Web App
 
 A sleek and responsive e-commerce web application developed by the **WebNinjas** team as part of the CSEC Bootcamp. This project utilizes **React**, **Vite**, **Tailwind CSS**, and **ShadCN UI** for a modern front-end stack.
@@ -11,7 +9,7 @@ A sleek and responsive e-commerce web application developed by the **WebNinjas**
 ## 👥 Team
 
 > Developed by **WebNinjas Group**  
-> Maintained on `main` branch by [Abdi Mangashahun](https://github.com/abdi-mangashahun)
+
 
 ---
 
@@ -34,9 +32,7 @@ src/
 ├── App.jsx # Root component
 └── main.jsx # Entry point
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -49,15 +45,11 @@ git clone https://github.com/abdi-mangashahun/CSEC-BOOTCAMP-ECOMMERC-WEB-APP-.gi
 cd CSEC-BOOTCAMP-ECOMMERC-WEB-APP-
 Install dependencies
 
-bash
-Copy
-Edit
+
 npm install
 Run the development server
 
-bash
-Copy
-Edit
+
 npm run dev
 Access the app at: http://localhost:5173/
 
@@ -81,20 +73,12 @@ Payment gateway integration
 
 Admin dashboard
 
-📜 License
-Open-source project under the MIT License
+
 
 📢 Acknowledgements
 Special thanks to the CSEC Bootcamp Team and all WebNinjas group members.
 
-yaml
-Copy
-Edit
 
 ---
 
-Let me know if you want to add:
-- Team member names
-- Screenshots
-- Deployment info (e.g., on Vercel or GitHub Pages)  
-Would you like help with setting up a live deployment too?
+

@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "Smart Watch",
+      "description": "Stylish smartwatch with health tracking features.",
+      "price": 129.99,
+      "image": "/images/product1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wireless Earbuds",
+      "description": "Noise-canceling earbuds with premium sound.",
+      "price": 89.99,
+      "image": "/images/product2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Mouse",
+      "description": "High-performance mouse with customizable RGB.",
+      "price": 49.99,
+      "image": "/images/product3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass and long battery life.",
+      "price": 59.99,
+      "image": "/images/product4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Laptop Stand",
+      "description": "Ergonomic stand for laptops with adjustable height.",
+      "price": 39.99,
+      "image": "/images/product16.jpg"
+    }
+  ]

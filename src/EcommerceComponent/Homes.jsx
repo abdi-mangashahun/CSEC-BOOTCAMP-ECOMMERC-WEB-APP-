@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 import Products from './Products';
 import Footer from './Footer';
-import { Search, LogIn } from "lucide-react";
+import { Search, } from "lucide-react";
 import { FaShoppingCart, FaUserPlus } from 'react-icons/fa';
 
 import {
@@ -20,10 +20,15 @@ const Homes = () => {
   return (
     <div className="bg-black text-black flex flex-col items-center justify-center ">
       <div className='sticky top-0 z-100'>
-        {/* Header Section */}
+     
         <div className="sticky top-0 z-50 w-full bg-black shadow-lg gap-28 px-4 py-2 flex justify-between items-center">
-          <h1 className="font-bold font-montaga text-3xl text-white p-5">Ninjas</h1>
-          <div className="relative w-fit">
+         {/* <h1 className="font-bold font-montaga text-3xl text-white p-5">Ninjas</h1> */}
+         <h1 className="font-bold text-4xl text-black p-5 flex items-center justify-center">
+  Ninjas
+  <span className="text-yellow-500 ml-2">&#8594;</span> 
+</h1>
+
+          <div className="relative w-fit">          
             <input
               className="w-200 max-md:w-60 border border-gray-100 text-white rounded-lg p-2 pr-10  outline-none"
               type="text"
@@ -33,13 +38,12 @@ const Homes = () => {
             <Search className="absolute right-3 top-1/2 -translate-y-1/2 text-white w-5 h-5 pointer-events-none" />
           </div>
           <div className="flex max-md:hidden gap-8 items-center">
-            <a href="/login">
-              <LogIn className="w-5 h-5 text-white" />
-            </a>
+           
             <a href='/register'>
               <FaUserPlus className="text-xl text-white" />
             </a>
-            {/* Updated Cart Button */}
+         
+
             <Link to="/cart">
               <button className="flex items-center gap-2 p-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
                 <FaShoppingCart className="w-5 h-5" />
@@ -49,7 +53,7 @@ const Homes = () => {
           </div>
         </div>
 
-        {/* Navigation Bar */}
+      
         <Menubar className="w-full sticky top-0 flex justify-center items-center border-none bg-black p-2 gap-20">
           <MenubarMenu>
             <MenubarTrigger className="text-white">Home</MenubarTrigger>
@@ -64,7 +68,7 @@ const Homes = () => {
               <MenubarItem>Watch</MenubarItem>
               <MenubarItem>Clothes</MenubarItem>
               <MenubarItem>Electronics</MenubarItem>
-              <MenubarItem>SlkinCare</MenubarItem>
+              <MenubarItem>SkinCare</MenubarItem>
               <MenubarItem>Football</MenubarItem>
               <MenubarItem>Mobiles</MenubarItem>
             </MenubarContent>

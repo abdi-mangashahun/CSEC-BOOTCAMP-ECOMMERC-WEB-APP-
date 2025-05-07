@@ -34,7 +34,7 @@ const Login = () => {
             </a>
           </div>
 
-          <Button className="w-full bg-blue-600 text-white hover:bg-blue-700 transition duration-200">Sign In</Button>
+      <a href="/">  <Button className="w-full bg-blue-600 text-white hover:bg-blue-700 transition duration-200">Sign In</Button></a>  
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-6">

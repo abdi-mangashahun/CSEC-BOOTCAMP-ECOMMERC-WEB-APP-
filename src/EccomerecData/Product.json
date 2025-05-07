@@ -1,114 +1,197 @@
+
 [
-    {
-      "id": 1,
-      "name": "Smart Watch",
-      "description": "Stylish smartwatch with health tracking features.",
-      "price": 129.99,
-      "image": "/images/product1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Wireless Earbuds",
-      "description": "Noise-canceling earbuds with premium sound.",
-      "price": 89.99,
-      "image": "/images/product2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Gaming Mouse",
-      "description": "High-performance mouse with customizable RGB.",
-      "price": 49.99,
-      "image": "/images/product3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Bluetooth Speaker",
-      "description": "Portable speaker with deep bass and long battery life.",
-      "price": 59.99,
-      "image": "/images/product4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product6.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product7.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product8.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product9.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product10.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product11.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product12.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product13.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product14.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product15.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Laptop Stand",
-      "description": "Ergonomic stand for laptops with adjustable height.",
-      "price": 39.99,
-      "image": "/images/product16.jpg"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "T-shirt",
+    "category": "Clothing",
+    "description": "Clothes",
+    "price": 129.99,
+    "image": "/images/product1.jpg",
+    "additionalImages": [
+      "/images/product1_1.jpg",
+      "/images/product1_2.jpg",
+      "/images/product1_3.jpg"
+    ],
+    "stock": 10
+  },
+  {
+    "id": 2,
+    "name": "Allstar",
+    "description": "Shoes",
+    "price": 89.99,
+    "image": "/images/product2.jpg",
+    "additionalImages": [
+      "/images/product2_1.jpg",
+      "/images/product2_2.jpg",
+      "/images/product2_3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mouse",
+    "description": "High-performance mouse with customizable RGB.",
+    "price": 49.99,
+    "image": "/images/product3.jpg",
+    "additionalImages": [
+      "/images/product3_1.jpg",
+      "/images/product3_2.jpg",
+      "/images/product3_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass and long battery life.",
+    "price": 59.99,
+    "image": "/images/product4.jpg",
+    "additionalImages": [
+      "/images/product4_1.jpg",
+      "/images/product4_2.jpg",
+      "/images/product4_3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product5.jpg",
+    "additionalImages": [
+      "/images/product5_1.jpg",
+      "/images/product5_2.jpg",
+      "/images/product5_3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product6.jpg",
+    "additionalImages": [
+      "/images/product6_1.jpg",
+      "/images/product6_2.jpg",
+      "/images/product6_3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product7.jpg",
+    "additionalImages": [
+      "/images/product7_1.jpg",
+      "/images/product7_2.jpg",
+      "/images/product7_3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product8.jpg",
+    "additionalImages": [
+      "/images/product8_1.jpg",
+      "/images/product8_2.jpg",
+      "/images/product8_3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product9.jpg",
+    "additionalImages": [
+      "/images/product9_1.jpg",
+      "/images/product9_2.jpg",
+      "/images/product9_3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product10.jpg",
+    "additionalImages": [
+      "/images/product10_1.jpg",
+      "/images/product10_2.jpg",
+      "/images/product10_3.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product11.jpg",
+    "additionalImages": [
+      "/images/product11_1.jpg",
+      "/images/product11_2.jpg",
+      "/images/product11_3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product12.jpg",
+    "additionalImages": [
+      "/images/product12_1.jpg",
+      "/images/product12_2.jpg",
+      "/images/product12_3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product13.jpg",
+    "additionalImages": [
+      "/images/product13_1.jpg",
+      "/images/product13_2.jpg",
+      "/images/product13_3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product14.jpg",
+    "additionalImages": [
+      "/images/product14_1.jpg",
+      "/images/product14_2.jpg",
+      "/images/product14_3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product15.jpg",
+    "additionalImages": [
+      "/images/product15_1.jpg",
+      "/images/product15_2.jpg",
+      "/images/product15_3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Best",
+    "description": "Low Stock",
+    "price": 39.99,
+    "image": "/images/product16.jpg",
+    "additionalImages": [
+      "/images/product16_1.jpg",
+      "/images/product16_2.jpg",
+      "/images/product16_3.jpg"
+    ]
+  }
+]

@@ -1,10 +1,26 @@
-// src/components/Footer.jsx
+
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10 w-full ">
-      <div className="max-w-full mx-auto px-4 sm:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-900 text-white  w-full  ">
+      <div className="w-full bg-white border-t border-gray-300 py-8 flex flex-col items-center justify-center space-y-2 text-center">
+  <p className="text-sm text-gray-700 font-semibold">See personalized recommendations</p>
+  <Link to="/login">
+    <button className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-sm font-bold rounded-md shadow-md">
+      Sign in
+    </button>
+  </Link>
+  <p className="text-sm text-gray-600">
+    New customer?{" "}
+    <Link to="/register" className="text-blue-600 hover:underline">
+      Start here.
+    </Link>
+  </p>
+</div>
+
+      <div className="max-w-full mx-auto  sm:px-8 py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Get to Know Us</h3>

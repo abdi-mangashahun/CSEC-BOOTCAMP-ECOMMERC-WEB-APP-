@@ -1,9 +1,10 @@
+
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
 
 const Cart = () => {
-  const { cartItems } = useCart(); 
-  const [showPaymentOptions, setShowPaymentOptions] = useState(null); 
+  const { cartItems, removeFromCart } = useCart(); 
+  const [showPaymentOptions, setShowPaymentOptions] = useState(null);
 
   const handleToPayClick = (index) => {
     setShowPaymentOptions((prev) => (prev === index ? null : index));
@@ -11,7 +12,7 @@ const Cart = () => {
 
   return (
     <div className="min-h-screen py-10 px-5 bg-gray-100">
-      <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">Your Cart</h1>
+      <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">Your Cart </h1>
       {cartItems.length === 0 ? (
         <p className="text-center text-gray-600">Your cart is empty.</p>
       ) : (
@@ -37,7 +38,13 @@ const Cart = () => {
                   onClick={() => handleToPayClick(index)}
                   className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
                 >
-                  To Pay
+                  Buy
+                </button>
+                <button
+                  onClick={() => removeFromCart(item.id)} 
+                  className="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-500 transition"
+                >
+                  Delete
                 </button>
               </div>
               {showPaymentOptions === index && (

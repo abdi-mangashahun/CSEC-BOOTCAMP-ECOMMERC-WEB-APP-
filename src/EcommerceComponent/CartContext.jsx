@@ -41,3 +41,7 @@ export const CartProvider = ({ children }) => {
     </CartContext.Provider>
   );
 };
+CartContext.jsx
+
+CartContext.jsx
+

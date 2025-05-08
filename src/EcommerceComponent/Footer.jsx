@@ -20,7 +20,7 @@ const Footer = () => {
   </p>
 </div>
 
-      <div className="max-w-full mx-auto  sm:px-8 py-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-full mx-auto  max-sm:px-8 py-4 grid grid-cols-4 max-sm:grid-cols-1 max-sm:text-center max-md:grid-cols-2 gap-8">
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Get to Know Us</h3>
@@ -66,8 +66,8 @@ const Footer = () => {
       <div className="border-t border-gray-700 mt-10 pt-6 text-center">
         
      
-        <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Ninja. All rights reserved.</p>
-        <div className="text-xs text-gray-500 mt-2">
+        <p className="text-sm  text-gray-400">&copy; {new Date().getFullYear()} Ninja. All rights reserved.</p>
+        <div className="text-xs mb-5 text-gray-500 mt-2">
           <a href="#" className="hover:underline mx-2">Privacy</a> | 
           <a href="#" className="hover:underline mx-2">Terms</a> | 
           <a href="#" className="hover:underline mx-2">Sitemap</a>

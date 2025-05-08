@@ -3,10 +3,14 @@ import { Button } from "@/components/ui/button";
 const Register = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 px-4">
-      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
+      <div className="w-full max-w-md bg-inherit border-1 p-8 rounded-lg ">
+        <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create Your Account
         </h2>
+        <button class="w-full flex items-center justify-center gap-2 bg-white text-gray-800 border border-gray-300 hover:bg-gray-100 py-2 mb-2 px-4 rounded-md">
+  <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="h-5 w-5" />
+  Sign in with Google
+</button>
         <form className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">Full Name</label>

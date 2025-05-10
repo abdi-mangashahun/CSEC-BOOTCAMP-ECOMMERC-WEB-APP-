@@ -7,7 +7,7 @@ const ProductCard = ({ product, addedToCart, handleAddToCart }) => {
   const stock = product.stock ?? 100; 
 
   return (
-    <div className="bg-gray-900 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     
       <Link to={`/product-details/${product.id}`}>
         <img
@@ -17,8 +17,8 @@ const ProductCard = ({ product, addedToCart, handleAddToCart }) => {
         />
       </Link>
       <div className="p-4">
-        <h2 className="text-lg font-semibold text-white">{product.name}</h2>
-        <p className="text-white text-sm mt-1">{product.description}</p>
+        <h2 className="text-lg font-semibold text-black">{product.name}</h2>
+        <p className="text-black text-sm mt-1">{product.description}</p>
         <p className="text-red-500 font-bold mt-2">${product.price.toFixed(2)}</p>
 
         <p

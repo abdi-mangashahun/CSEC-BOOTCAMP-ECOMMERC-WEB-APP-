@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white  w-full  ">
-      <div className="w-full bg-white border-t border-gray-300 py-8 flex flex-col items-center justify-center space-y-2 text-center">
+      <div className="w-full bg-white  py-8 flex flex-col items-center justify-center space-y-2 text-center">
   <p className="text-sm text-gray-700 font-semibold">See personalized recommendations</p>
   <Link to="/login">
     <button className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-sm font-bold rounded-md shadow-md">
@@ -20,7 +20,7 @@ const Footer = () => {
   </p>
 </div>
 
-      <div className="max-w-full mx-auto  max-sm:px-8 py-4 grid grid-cols-4 max-sm:grid-cols-1 max-sm:text-center max-md:grid-cols-2 gap-8">
+      <div className="max-w-full mx-auto text-center max-sm:px-8 py-4 grid grid-cols-4 max-sm:grid-cols-1 max-sm:text-center max-md:grid-cols-2 gap-8">
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Get to Know Us</h3>

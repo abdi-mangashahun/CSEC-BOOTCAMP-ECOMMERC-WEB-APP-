@@ -2,6 +2,7 @@
 import React from 'react';
 import {BrowserRouter as Router , Routes , Route }  from "react-router-dom";
 import Homes from './EcommerceComponent/Homes.jsx';
+import axios from 'axios'
 import Products from './EcommerceComponent/Products.jsx';
 import Login from './EcommerceComponent/Login.jsx';
 import Register from './EcommerceComponent/Register.jsx';
@@ -12,7 +13,7 @@ import Hero from './EcommerceComponent/Hero.jsx';
 import ProductDetails from "./EcommerceComponent/ProductDetails";
 import { CartProvider } from "./EcommerceComponent/CartContext";
 import Banner from './EcommerceComponent/Banner.jsx';
-
+import PhotoGrid from "./EcommerceComponent/PhotoGrid"
 const App = () =>{
   return (
 <Router>
